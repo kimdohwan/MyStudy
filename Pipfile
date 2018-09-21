@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 notebook = "*"
 ipython = "*"
+openpyxl = "*"
 
 [dev-packages]
 
