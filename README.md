@@ -5,8 +5,6 @@
 - [class 와 intance 다른점](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/difference_class_and_instance.ipynb)
 - [generator](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/generator.ipynb)
 - [iter, next, zip, lambda(5장도 볼 것), 절차지향 프로그래밍](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/procedure_programming.ipynb)
-- 
- 
 
 
 
