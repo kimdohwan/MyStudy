@@ -2,7 +2,7 @@
 도서 : 파이썬과 함께하는 자료구조의 이해  
 - 연습문제 풀이(*_exercise)
 - [하노이의 탑](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/01_exercise.ipynb)
-- [singly linked list](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/02_linked_list/singly_linked_list.ipynb), [doubly linked list](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/02_linked_list/doubly_linked_list.ipynb)[circualr linked list](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/02_linked_list/circular_linked_list.ipynb)
+- [singly linked list](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/02_linked_list/singly_linked_list.ipynb), [doubly linked list](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/02_linked_list/doubly_linked_list.ipynb), [circualr linked list](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/02_linked_list/circular_linked_list.ipynb)
 
 
 
