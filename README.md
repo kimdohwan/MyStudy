@@ -3,6 +3,7 @@
 - 연습문제 풀이(*_exercise)
 - [하노이의 탑](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/01_exercise.ipynb)
 - [singly linked list](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/02_linked_list/singly_linked_list.ipynb), [doubly linked list](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/02_linked_list/doubly_linked_list.ipynb), [circualr linked list](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/02_linked_list/circular_linked_list.ipynb)
+- [stack](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/03_stack_queue_deque/stack.ipynb), [queue](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/03_stack_queue_deque/queue.ipynb) list 와 linked list 로 구현된 책 예제
 
 
 
