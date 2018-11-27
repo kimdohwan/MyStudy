@@ -6,6 +6,9 @@
 - [stack](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/03_stack_queue_deque/stack.ipynb), [queue](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/03_stack_queue_deque/queue.ipynb) - list 와 linked list 로 구현된 책 예제
 - [binary tree](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/04_tree/binary_tree.ipynb), [binary heap](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/04_tree/bynary_heap.ipynb)
 - [binary search tree](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/05_search_tree/binary_search_tree.ipynb), [avl tree](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/05_search_tree/avl_tree.ipynb)(put, delete 등 미구현. bst tree 참고해서 다시 작성 필요)
+- Hash Table:   
+Open Adressing: [linear probing](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/06_hash_table/linear_prob.ipynb), [quadratic probing](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/06_hash_table/quad_prob.ipynb), [random probing](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/06_hash_table/random_probing.ipynb)  
+Closed Adressing: [chaining](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/06_hash_table/chaining.ipynb)
 
 
 
