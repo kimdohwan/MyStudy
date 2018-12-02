@@ -10,8 +10,10 @@
 Open Adressing: [linear probing](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/06_hash_table/linear_prob.ipynb), [quadratic probing](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/06_hash_table/quad_prob.ipynb), [random probing](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/06_hash_table/random_probing.ipynb), [double hashing](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/06_hash_table/double_hasing.ipynb)  
 Closed Adressing: [chaining](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/06_hash_table/chaining.ipynb)
 - sort
+  - [bubble, selection, insertion](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/07_sort/selection_bubble_insertion.ipynb)
   - [merge sort](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/07_sort/merge.py)
-  
+  - [quick_sort](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/07_sort/quick.py)
+- [mutable, immutable with shallow copy](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/07_sort/mutable_and_immutable_in_shallow_copy%20.ipynb)
 
 
 
