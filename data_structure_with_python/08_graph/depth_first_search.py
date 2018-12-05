@@ -3,8 +3,9 @@ adj_list = [[2, 1], [3, 0], [3, 0], [9, 8, 2, 1],
 N = len(adj_list)
 visited = [False for x in range(N + 1)]
 
+result = []
 
-result = []  ##
+
 def dfs(v):
     visited[v] = True
     print(v, ' ', end='')
