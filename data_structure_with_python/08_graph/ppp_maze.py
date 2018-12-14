@@ -1,6 +1,7 @@
 from random import shuffle, randrange, seed
 
 
+# 미로 생성하는 함수
 def make_maze(w, h):
     vis = [[0] * w + [1] for _ in range(h)] + [[1] * (w + 1)]
     ver = [["#  "] * w + ['#'] for _ in range(h)] + [[]]
