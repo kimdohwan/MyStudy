@@ -26,3 +26,4 @@ Closed Adressing: [chaining](https://github.com/kimdohwan/BookStudy/blob/master/
 - [iter, next, zip, lambda(5장도 볼 것), 절차지향 프로그래밍](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/procedure_programming.ipynb)
 
 
+'ppp*' file - 연습 및 테스트를 위한 코드(주로 ipynb)로 ppp branch 에 포함(master 에는 gitignore)
