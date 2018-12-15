@@ -1,4 +1,4 @@
-#ubuntu icon customizing
+# ubuntu icon customizing
 - 기본 아이콘 모양을 바꾸는 법은 2가지가 있는 것으로 추정.
 
 	1. 파일의 아이콘이 저장된 폴더로 가서 해당 이미지 파일을 수정
