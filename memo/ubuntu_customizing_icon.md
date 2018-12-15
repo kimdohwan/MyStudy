@@ -11,7 +11,7 @@
         - 바탕화면의 프로그램 아이콘 경로 - /home/user/Desktop
           /home/user/Desktop 경로에 *.desktop 형식으로 아래와 같이 구성되어있다.
 
-             ```
+           ```
           [Desktop Entry]  
           Name=hi  
           Exec=foocorp-painter-pro  
@@ -19,35 +19,25 @@
           Type=Application
           Terminal=False  
           Categories=GTK;GNOME;Utility;
-             ```
-
-          파일을 만들고 싶다면 내용을 desktop entry 형식에 맞게 적어주고 chmod 로 실행가능하게 바꿔줘야한다. 바탕화면에 hi 라는 파일이 생성되며 Icon 에 넣어주는 경로에 따라 아이콘 이미지가 설정된다. 
+           ```
+           파일을 만들고 싶다면 내용을 desktop entry 형식에 맞게 적어주고 chmod 로 실행가능하게 바꿔줘야한다. 바탕화면에 hi 라는 파일이 생성되며 Icon 에 넣어주는 경로에 따라 아이콘 이미지가 설정된다.  
           show application 에 들어있는 파일의 아이콘을 바꿔주기위해서는 다른 경로를 이용한다.  
 
         - show application 화면의 프로그램 경로 - /usr/share/application
-
-            /usr/share/application 에는 내가 사용할 수 있는/하고 있는 .desktop 파일이 들어있다. 여기서 바꿔주려는 프로그램의 파일을 vim 으로 열어 Icon 항목을 수정하면 된다.
-
-               chrome, terminator 는 .desktop 파일이 이름대로 존재해서 쉽게 수정 할 수 있었다.하지만 files 프로그램의 아이콘을 찾는데 애를 먹었다. 
-
-               18.04 ubuntu 에서는 nautilus 라는 프로그램이 폴더 관리를 담당한다. org.gnome.Nautilus.desktop 이라는 이름의 파일의 Icon 을 위와 같은 방식으로 수정하면 된다. applications 안에는 nautilus 로 시작하는 5개의 .desktop 파일이 있는데, 내가 찾고자 했던건 org.gnome 으로 시작한 파일이었다.
-
-               sudo find -iname '\*nautilus\*' 라는 명령어로 org.gnome 파일의 존재를 알게되었다.
+         /usr/share/application 에는 내가 사용할 수 있는/하고 있는 .desktop 파일이 들어있다. 여기서 바꿔주려는 프로그램의 파일을 vim 으로 열어 Icon 항목을 수정하면 된다.  
+		 chrome, terminator 는 .desktop 파일이 이름대로 존재해서 쉽게 수정 할 수 있었다.하지만 files 프로그램의 아이콘을 찾는데 애를 먹었다.   
+		 18.04 ubuntu 에서는 nautilus 라는 프로그램이 폴더 관리를 담당한다.  
+		 org.gnome.Nautilus.desktop 이라는 이름의 파일의 Icon 을 위와 같은 방식으로 수정하면 된다. applications 안에는 nautilus 로 시작하는 5개의 .desktop 파일이 있는데, 내가 찾고자 했던건 org.gnome 으로 시작한 파일이었다.
+		 sudo find -iname '\*nautilus\*' 라는 명령어로 org.gnome 파일의 존재를 알게되었다.
 
         - chrome extensions(keep) - /home/doh/.local/share/applications
-           keep 아이콘을 바꿔주기위해 위에 적은 두가지 경로를 쥐 잡듯 뒤졌지만 발견 못 했다. 
-           그 과정에서 크롬 확장프로그램이 user/.config 경로에 존재한다는 것을 알게 되었다.
-
-            크롬 확장프로그램 경로: /home/doh/.config/google-chrome/Default/Extensions/hmjkmjkepdijhoojdojkdfohbdgmmhki/3.1.18495.1257_0  
-            경로를 자세히 살펴 보면 Extensions/program id(keep)/version 형식으로 저장되어 있다. 하지만 안타깝게도 .desktop 파일은 없었다.
-
-            하지만 나는 결국 찾아내고 말았다. 
-
-        ​	 /home/doh/.local/share/applications/chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default.desktop
-
-           	보다시피 keep 의 프로그램 아이디로 파일명을 구성하고 있다.  
-
-
+		 keep 아이콘을 바꿔주기위해 위에 적은 두가지 경로를 쥐 잡듯 뒤졌지만 발견 못 했다. 
+		 그 과정에서 크롬 확장프로그램이 user/.config 경로에 존재한다는 것을 알게 되었다.  
+		 크롬 확장프로그램 경로: /home/doh/.config/google-chrome/Default/Extensions/hmjkmjkepdijhoojdojkdfohbdgmmhki/3.1.18495.1257_0  
+		 경로를 자세히 살펴 보면 Extensions/program id(keep)/version 형식으로 저장되어 있다. 하지만 안타깝게도 .desktop 파일은 없었다.  
+		하지만 나는 결국 찾아내고 말았다.  
+		/home/doh/.local/share/applications/chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default.desktop  
+		 보다시피 keep 의 프로그램 아이디로 파일명을 구성하고 있다.  
 
 ### 메모 18.12.16
 
