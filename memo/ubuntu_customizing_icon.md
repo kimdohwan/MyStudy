@@ -7,7 +7,7 @@
     이 방법은 desktop 에서 실행되는 파일에 들어있는 링크를 수정해주는 방식이다.  
     
     예를 들어 /home/user/Desktop 경로에 *.desktop 이라는 파일을 생성하고
-    ''' 
+    ```
     [Desktop Entry]  
 	Name=hi  
 	Exec=foocorp-painter-pro  
@@ -15,7 +15,7 @@
 	Type=Application
 	Terminal=False  
 	Categories=GTK;GNOME;Utility;
-	'''   
+    ```   
     파일 내용을 desktop entry 형식에 맞게 적어주고 chmod 로 실행가능하게 바꿔준다.
     바탕화면에 hi 라는 파일이 생성되며 Icon 에 넣어주는 경로에 따라 아이콘 이미지가 설정된다.   
     show application 에 들어있는 파일의 아이콘을 바꿔주기위해서는 다른 경로를 이용한다.
