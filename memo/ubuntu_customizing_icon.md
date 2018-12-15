@@ -19,7 +19,8 @@
 		Icon=foocorp-painter-pro  
 		Type=Application
 		Terminal=False  
-		Categories=GTK;GNOME;Utility;```  
+		Categories=GTK;GNOME;Utility;
+		```  
 		
 		파일을 만들고 싶다면 내용을 desktop entry 형식에 맞게 적어주고 chmod 로 실행가능하게 바꿔줘야한다. 바탕화면에 hi 라는 파일이 생성되며 Icon 에 넣어주는 경로에 따라 아이콘 이미지가 설정된다.  
 		
