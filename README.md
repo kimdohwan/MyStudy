@@ -45,13 +45,6 @@
 	- [kruskal](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/08_graph/kruskal.py)
 	- [topological sort](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/08_graph/topological_sort.ipynb)
 	- [floyd warshall](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/08_graph/floyd_warshall.py)
-
-- Python(책 X)
-	- [mutable, immutable with shallow copy](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/07_sort/mutable_and_immutable_in_shallow_copy%20.ipynb)
-	- [class method, static method](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/08_graph/classmethod_staticmethod.ipynb)
-	
-- Etc
-	- [하노이의 탑](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/01_exercise.ipynb)
 	
 
 ---
@@ -64,10 +57,23 @@
 - [generator](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/generator.ipynb)
 - [iter, next, zip, lambda(5장도 볼 것), 절차지향 프로그래밍](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/procedure_programming.ipynb)
 
+
 ---
-메모
+memo
 
 - [우분투 데스크탑 아이콘 커스터마이징하기](https://github.com/kimdohwan/BookStudy/blob/master/memo/ubuntu_customizing_icon.md)
+
+
+---
+etc
+
+- Python
+	- [mutable, immutable with shallow copy](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/07_sort/mutable_and_immutable_in_shallow_copy%20.ipynb)
+	- [class method, static method](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/08_graph/classmethod_staticmethod.ipynb)
+	
+- 알고리즘
+	- [하노이의 탑](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/01_exercise.ipynb)
+	- [주어진 문자열에서 append, delete](https://github.com/kimdohwan/BookStudy/blob/master/etc/append_and_delete.py)
 
 ---
 'ppp*' file - 연습 및 테스트를 위한 코드(주로 ipynb)로 ppp branch 에 포함(master 에는 gitignore)
