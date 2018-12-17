@@ -25,7 +25,7 @@ def make_maze(w, h):
                 ver[y][max(x, xx)] = "  "
             walk(xx, yy)
 
-    # seed(2)
+    seed(2)
     walk(randrange(w), randrange(h))
 
     result = []
