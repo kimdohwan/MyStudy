@@ -176,12 +176,6 @@ def solve(w, h, random_maze=False, random_point=False, random_remove=False):
     # 경로찾기 시작
     find_path(sx, sy)
 
-    print('distance')
-    for i in distance: print(i)
-    print('visited')
-    for i in visited: print(i)
-    print('prev')
-    for i in prev: print(i)
 
     # prev 노드 추적으로 최적경로 표시
     n = 0
@@ -194,11 +188,28 @@ def solve(w, h, random_maze=False, random_point=False, random_remove=False):
             break
         change_str(maze, y, x, '.')
 
+    string_maze = ''
+    for i in maze:
+        string_maze += i + '\n'
+
+    print('distance')
+    for i in distance: print(i)
+    print('visited')
+    for i in visited: print(i)
+    print('prev')
+    for i in prev: print(i)
     print('maze')
     for i in maze: print(i)
 
     print(f'd: {distance[ey][ex]}, p: {n}, {distance[ey][ex] == n}')
 
+    return print(string_maze)
 
 if __name__ == '__main__':
-    solve(80, 40, random_maze=True, random_point=True, random_remove=True)
+    solve(
+        12,
+        6,
+        random_maze=True,
+        random_point=True,
+        random_remove=True
+    )
