@@ -12,7 +12,6 @@ def change_str(string, y, x, s):
 # \n split 실행(list 로 return)
 def convert_maze(maze):
     c_maze = []
-    print(maze)
     for i in maze:
         for j in i.split('\n'):
             c_maze.append(j)
@@ -121,7 +120,7 @@ def remove_wall(maze, random_remove):
 
 # 미로 실험을 위해서 랜덤으로 미로, 시작지점, 벽제거를 위한 기능을 추가했다
 # 기능 = random on/off + seed 지정
-def solve(w, h, random_maze=False, random_point=False, random_remove=False):
+def solve(w, h, random_maze=False, random_point=False, random_remove=False, print_element=True):
     maze_seed_number = create_random_seed(random_maze)
     point_seed_number = create_random_seed(random_point)
     remove_wall_seed_number = create_random_seed(random_remove)
@@ -173,43 +172,60 @@ def solve(w, h, random_maze=False, random_point=False, random_remove=False):
                 else:
                     change_str(maze, yy, xx, 'E')
 
+    # prev 노드 추적으로 최적경로 표시
+    def assgin_prev_to_maze():
+        n = 0
+        x = ex
+        y = ey
+        while True:
+            n += 1
+            x, y = prev[y][x][0], prev[y][x][1]
+            if (x, y) == (sx, sy):
+                break
+            change_str(maze, y, x, '.')
+
+        # 프린트하기 귀찮으니 예외발생 시켜서 검사하자
+        if n != distance[ey][ex]:
+            raise Exception(n != distance[ey][ex])
+
+    def make_maze_to_string():
+        string_maze = ''
+        for i in maze:
+            string_maze += i + '\n'
+
+        return string_maze
+
     # 경로찾기 시작
     find_path(sx, sy)
+    assgin_prev_to_maze()
+    result = make_maze_to_string()
 
+    if print_element:
+        print('distance')
+        for i in distance: print(i)
+        print('visited')
+        n = 0
+        for i in range(len(visited)):
+            for j in visited[i]:
+                if j == ' ':
+                    n += 1
+            print(visited[i])
+        if n != 2:
+            raise Exception(n != 2, '모든 노드를 방문하지 않았습니다')
+        print('prev')
+        for i in prev: print(i)
+        print('maze')
+        for i in maze: print(i)
 
-    # prev 노드 추적으로 최적경로 표시
-    n = 0
-    x = ex
-    y = ey
-    while True:
-        n += 1
-        x, y = prev[y][x][0], prev[y][x][1]
-        if (x, y) == (sx, sy):
-            break
-        change_str(maze, y, x, '.')
+    return print(result)
 
-    string_maze = ''
-    for i in maze:
-        string_maze += i + '\n'
-
-    print('distance')
-    for i in distance: print(i)
-    print('visited')
-    for i in visited: print(i)
-    print('prev')
-    for i in prev: print(i)
-    print('maze')
-    for i in maze: print(i)
-
-    print(f'd: {distance[ey][ex]}, p: {n}, {distance[ey][ex] == n}')
-
-    return print(string_maze)
 
 if __name__ == '__main__':
     solve(
-        12,
-        6,
+        3,
+        2,
         random_maze=True,
-        random_point=True,
-        random_remove=True
+        random_point=False,
+        random_remove=False,
+        print_element=False,
     )
