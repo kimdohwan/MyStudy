@@ -6,7 +6,7 @@ __all__ = (
 
 
 # 미로 생성하는 함수
-def make_maze(w, h):
+def make_maze(w, h, seed_maze=None):
     vis = [[0] * w + [1] for _ in range(h)] + [[1] * (w + 1)]
     ver = [["# "] * w + ['#'] for _ in range(h)] + [[]]
     hor = [["##"] * w + ['#'] for _ in range(h + 1)]
@@ -25,7 +25,7 @@ def make_maze(w, h):
                 ver[y][max(x, xx)] = "  "
             walk(xx, yy)
 
-    seed(2)
+    seed(seed_maze)
     walk(randrange(w), randrange(h))
 
     result = []
