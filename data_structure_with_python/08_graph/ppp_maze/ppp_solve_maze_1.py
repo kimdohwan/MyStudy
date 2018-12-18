@@ -160,24 +160,28 @@ def solve(w, h, random_maze=False, random_point=False, random_remove=False):
         if visited[y][x] == ' ':
             change_str(visited, y, x, 'V')
         left_right_up_down = [(x - 1, y), (x + 1, y), (x, y + 1), (x, y - 1)]
-        shuffle(left_right_up_down)  # 모든 지점을 방문할 것이기 때문에 필요없는 옵션
+        # shuffle(left_right_up_down)  # 모든 지점을 방문할 것이기 때문에 필요없는 옵션
         for xx, yy in left_right_up_down:
             if visited[yy][xx] != '#' and distance[yy][xx] > distance[y][x] + 1:
                 distance[yy][xx] = distance[y][x] + 1
                 prev[yy][xx] = [x, y]
-                if find_path(xx, yy):
-                    break
+                find_path(xx, yy)
             if (xx, yy) in [(sx, sy), (ex, ey)]:
                 change_str(visited, yy, xx, ' ')
                 if (xx, yy) == (sx, sy):
                     change_str(maze, yy, xx, 'S')
                 else:
                     change_str(maze, yy, xx, 'E')
-                    return True
-        return False
 
     # 경로찾기 시작
     find_path(sx, sy)
+
+    print('distance')
+    for i in distance: print(i)
+    print('visited')
+    for i in visited: print(i)
+    print('prev')
+    for i in prev: print(i)
 
     # prev 노드 추적으로 최적경로 표시
     n = 0
@@ -188,23 +192,13 @@ def solve(w, h, random_maze=False, random_point=False, random_remove=False):
         x, y = prev[y][x][0], prev[y][x][1]
         if (x, y) == (sx, sy):
             break
-        if (x, y) == (ex, ey):
-            continue
         change_str(maze, y, x, '.')
 
-    print('distance')
-    for i in distance: print(i)
-    print('visited')
-    for i in visited: print(i)
-    print('prev')
-    for i in prev: print(i)
     print('maze')
     for i in maze: print(i)
+
     print(f'd: {distance[ey][ex]}, p: {n}, {distance[ey][ex] == n}')
 
 
 if __name__ == '__main__':
-    solve(12, 6,
-          random_maze=True,
-          random_point=False,
-          random_remove=False)
+    solve(80, 40, random_maze=True, random_point=True, random_remove=True)
