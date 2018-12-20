@@ -10,11 +10,10 @@ class Maze:
     # 미로를 생성 return type = str
     def _make_maze(self):
         vis = [[0] * self.w + [1] for _ in range(self.h)] + [[1] * (self.w + 1)]
-        ver = [["# "] * self.w + ['#'] for _ in range(self.h)] + [[]]
         hor = [["##"] * self.w + ['#'] for _ in range(self.h + 1)]
+        ver = [["# "] * self.w + ['#'] for _ in range(self.h)] + [[]]
 
         start_x, start_y = randrange(self.w), randrange(self.h)
-
         self._create_map(start_x, start_y, vis=vis, ver=ver, hor=hor)
 
         maze = ''
