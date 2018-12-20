@@ -5,24 +5,25 @@ class Maze:
     def __init__(self, width, height):
         self.w = width
         self.h = height
-        self.maze = self.make_maze()
+        self.maze = self._make_maze()
 
-    def make_maze(self):
+    # 미로를 생성 return type = str
+    def _make_maze(self):
         vis = [[0] * self.w + [1] for _ in range(self.h)] + [[1] * (self.w + 1)]
         ver = [["# "] * self.w + ['#'] for _ in range(self.h)] + [[]]
         hor = [["##"] * self.w + ['#'] for _ in range(self.h + 1)]
 
         start_x, start_y = randrange(self.w), randrange(self.h)
 
-        self.create_map(start_x, start_y, vis=vis, ver=ver, hor=hor)
+        self._create_map(start_x, start_y, vis=vis, ver=ver, hor=hor)
 
         maze = ''
-        for (a, b) in zip(hor, ver):
-            maze.join(a + '\n' + b + '\n')
-
+        for (h, v) in zip(hor, ver):
+            maze += ''.join(h + ['\n'] + v + ['\n'])
         return maze
 
-    def create_map(self, x, y, **kwargs):
+    # _make_maze() 에서 사용되는 재귀함수
+    def _create_map(self, x, y, **kwargs):
         kwargs['vis'][y][x] = 1
 
         direction = [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]
@@ -35,14 +36,16 @@ class Maze:
             if yy == y:
                 kwargs['ver'][y][max(x, xx)] = '  '
 
-            self.create_map(xx, yy, **kwargs)
+            self._create_map(xx, yy, **kwargs)
 
     def __repr__(self):
-        return f'{self.make()}'
+        return f'Maze({self.w}, {self.h})'
 
-    # def __str__(self):
-    #     return f'{self.make()}'
+    def __str__(self):
+        return self.maze
 
 
 if __name__ == '__main__':
-    m = Maze(12, 6)
+    m1 = Maze(12, 6)
+    print(repr(m1))
+    print(m1)
