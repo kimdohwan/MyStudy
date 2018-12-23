@@ -69,6 +69,7 @@ etc
 - Coding Test, Algorithm
 	- [하노이의 탑](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/01_exercise.ipynb)
 	- [주어진 문자열에서 append, delete](https://github.com/kimdohwan/BookStudy/blob/master/etc/append_and_delete.py)
+	- [미로 길찾기](https://github.com/kimdohwan/BookStudy/blob/master/etc/maze.py)
 	
 - Ubuntu
 	- [우분투 데스크탑 아이콘 커스터마이징하기](https://github.com/kimdohwan/BookStudy/blob/master/memo/ubuntu_customizing_icon.md)
