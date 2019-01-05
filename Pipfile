@@ -9,6 +9,9 @@ ipython = "*"
 openpyxl = "*"
 psutil = "*"
 numpy = "*"
+requests = "*"
+bs4 = "*"
+aiohttp = "*"
 
 [dev-packages]
 
