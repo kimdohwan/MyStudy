@@ -1,7 +1,7 @@
 ## awsebcli 사용 시 UnicodeDecodeError 
 ---
 
-###eb 생성 시 나타나는 아스키 코드 에러 해결하기
+### eb 생성 시 나타나는 아스키 코드 에러 해결하기
 
 ####  issue 1
 - 사용한 명령어  
@@ -35,6 +35,7 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xec in position 8: ordinal 
 2019-03-12 17:59:33,113 (INFO) eb : UnicodeDecodeError - 'ascii' codec can't decode byte 0xec in position 8: ordinal not in range(128)
 ```
 - 해결 과정  
+
 위의 과정을 겪었기에 encoding 관련 설정은 문제가 아니라고 판단.  
 
 내 프로젝트의 파일 중 한글이 들어간 어떤 파일의 문제일거라고 짐작했지만 딱히 어떤 파일인지 짐작이 가지않아 구글 검색(검색어: unicodedecodeerror codecommit).  
