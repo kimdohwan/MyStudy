@@ -73,6 +73,9 @@ etc
 	
 - Ubuntu
 	- [우분투 데스크탑 아이콘 커스터마이징하기](https://github.com/kimdohwan/BookStudy/blob/master/etc/ubuntu_customizing_icon.md)
+	
+- AWS
+	- [awsebcli 사용 시 나타나는 UnicodeDecodeError 해결하기](https://github.com/kimdohwan/BookStudy/blob/master/etc/unicodedecodeerror_awscli.md)
 
 
 ---
