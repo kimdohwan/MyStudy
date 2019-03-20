@@ -86,7 +86,7 @@ etc
 
 ---
 
-memo(
+memo(정리 필요)
 
 - [장고 앱 생성/셋팅](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-06-01-dango_blog_1.md)
 - [세션](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-06-24-django_session.md)
