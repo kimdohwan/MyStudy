@@ -48,17 +48,7 @@
 	
 
 ---
-도서 : 컴퓨터 사이언스 부트캠프 with 파이썬
 
-- [quick sort](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/10_algorithm/quick_sort.ipynb)
-- [보수(complement), byte 형태로 나타내기](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/2_to_4/2_complement_and_bytes.ipynb)
-- [class 에 쓰이는 magic/private method](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/magic_method_with_class.ipynb)
-- [class 와 intance 다른점](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/difference_class_and_instance.ipynb)
-- [generator](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/generator.ipynb)
-- [iter, next, zip, lambda(5장도 볼 것), 절차지향 프로그래밍](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/procedure_programming.ipynb)
-
-
----
 etc
 
 - Python
@@ -76,7 +66,48 @@ etc
 	
 - AWS
 	- [awsebcli 사용 시 나타나는 UnicodeDecodeError 해결하기](https://github.com/kimdohwan/BookStudy/blob/master/etc/unicodedecodeerror_awscli.md)
+	- [elasticbeanstalk setting](https://github.com/kimdohwan/BookStudy/blob/master/etc/elasticbeanstalk_setting.md)
+	- [route 53,acm](https://github.com/kimdohwan/BookStudy/blob/master/etc/route53_acm.md)
 
+- 기타
+	- [Headless Chrome setting](https://github.com/kimdohwan/BookStudy/blob/master/etc/headless_chrome.md)
+	- [unix socket 으로 통신하는 이유](https://github.com/kimdohwan/BookStudy/blob/master/etc/unix_socket_with_nginxsetting.md)
+---
 
+도서 : 컴퓨터 사이언스 부트캠프 with 파이썬
+
+- [quick sort](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/10_algorithm/quick_sort.ipynb)
+- [보수(complement), byte 형태로 나타내기](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/2_to_4/2_complement_and_bytes.ipynb)
+- [class 에 쓰이는 magic/private method](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/magic_method_with_class.ipynb)
+- [class 와 intance 다른점](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/difference_class_and_instance.ipynb)
+- [generator](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/generator.ipynb)
+- [iter, next, zip, lambda(5장도 볼 것), 절차지향 프로그래밍](https://github.com/kimdohwan/BookStudy/blob/master/computer_sience_bootcamp_with_python/6_object_oriented_programming/procedure_programming.ipynb)
+
+---
+
+memo
+
+- [장고 앱 생성/셋팅](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-06-01-dango_blog_1.md)
+- [세션](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-06-24-django_session.md)
+- [django migrate error](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-06-28-django_issue_database.md)
+- [facebook login](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-07-02-django_facebook_login.md)
+- [create ec2](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-07-04-aws_connection.md)
+- [django staticfile](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-07-05-aws_p.md)
+- [django staticfile with webserver](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-07-05-aws_shell_script_and_uwsgi.md)
+- [RDS/IAM](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-07-09-aws_rds_setting.md)
+- [frequent mistakes](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-07-14-frequent_mistakes.md)
+- [nginx, uwsgi supervisor error](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-07-15-aws_nginx_connect.md)
+- [create django error log](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-07-16-create_django_error_log.md)
+- [shebang(./manage.py vs python manage.py)](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-07-16-shebang_env.md)
+- [eb dockerfile setting](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-08-04-aws_deploy_code_review.md)
+- [djangorestgramework serialize](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-08-06-restframework_serializers.md)
+- [selialization, deserialization](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-08-06-serialize_%20deserialize.md)
+- [oauth facebook token](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-08-11-facebook_token.md)
+- [django email authentication](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-08-13-django_gmail_authentication.md)
+- [go deeper 'bubble sort'](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-09-08-bubble_sort.md)
+- [go deeper 'insertion sort'](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-09-09-insertion_sort.md)
+- 
+
+	
 ---
 'ppp*' file - 연습 및 테스트를 위한 코드(주로 ipynb)로 ppp branch 에 포함(master 에는 gitignore)
