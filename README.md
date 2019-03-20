@@ -86,7 +86,7 @@ etc
 
 ---
 
-memo
+memo(
 
 - [장고 앱 생성/셋팅](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-06-01-dango_blog_1.md)
 - [세션](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-06-24-django_session.md)
@@ -107,7 +107,6 @@ memo
 - [django email authentication](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-08-13-django_gmail_authentication.md)
 - [go deeper 'bubble sort'](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-09-08-bubble_sort.md)
 - [go deeper 'insertion sort'](https://github.com/kimdohwan/BookStudy/blob/master/memo/2018-09-09-insertion_sort.md)
-- 
 
 	
 ---
