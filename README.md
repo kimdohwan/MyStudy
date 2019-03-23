@@ -61,7 +61,7 @@ etc
 	- [주어진 문자열에서 append, delete](https://github.com/kimdohwan/BookStudy/blob/master/etc/append_and_delete.py)
 	- [미로 길찾기](https://github.com/kimdohwan/BookStudy/blob/master/etc/maze.py)
 	- [가운데 글자 반환하기](https://github.com/kimdohwan/BookStudy/blob/master/etc/2018-09-15-programmers_01.md)
-	
+	- [단속 카메라](https://github.com/kimdohwan/BookStudy/blob/master/etc/camera.md)
 - Ubuntu
 	- [우분투 데스크탑 아이콘 커스터마이징하기](https://github.com/kimdohwan/BookStudy/blob/master/etc/ubuntu_customizing_icon.md)
 	
