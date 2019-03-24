@@ -88,7 +88,7 @@ asyncio 에서는 async 와 await 문법을 사용하여 비동기 IO 를 구현
 - await 란?  
 코루틴 함수 내부에서 비동기 작업을 호출할 때 앞에 붙여줘야하며 호출되는 함수 역시 비동기 코루틴(async 가 붙은)함수여야 한다. 병렬적으로 코드가 실행될 지점에 붙여주면 되며 await 가 붙은 지점에서 요청을 보낸 후 기다리는 시간 동안 다음 task 를 진행하는 시점이 된다.
 
-- ensure_future() 란?
+- ensure_future() 란?  
 async 나 await 로 작성된 코루틴은 create_task(coroutine) 을 통해 TASK 객체가 된다. task 객체가 아니라면 loop 를 실행시킬 수 없으므로 필수적으로 create_task()를 해주어야 한다.  
 이때 ensure_future(coroutine) 과 같이 코루틴 함수를 인자로 넣어 실행시켜주면 ensure_future() 안쪽에서 create_task() 를 실행시켜서 TASK 객체를 만들어준다.  
 그외에도 Future 객체인지 검사한 후 아닐 경우 ValueError 를 발생시키는 역할 또한 존재한다.
@@ -103,7 +103,7 @@ async def detail_crawl(url, article_txid):
             r = await res.text()
 ```
 
-- aiohttp.ClientSession() 란?
+- aiohttp.ClientSession() 란?  
 client 에 해당되는 나의 세션 객체를 생성하며 안쪽에서 loop 를 get 하게된다. get 한 loop 를 통해 request 작업을 실행한다.
 
 - 코드 작동  
