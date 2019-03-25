@@ -22,13 +22,14 @@ skill_trees의 원소는 길이가 2 이상 26 이하인 문자열이며, 스킬
 
 | skill	| skill_trees | return |
 |-------|-------------|--------|
-| CBD	| [BACDE, CBADF, AECB, BDA] | 2 |
+| CBD	| [BACDE, CBADF, AECB, BDA] | 2 |  
 
 입출력 예 설명  
 BACDE: B 스킬을 배우기 전에 C 스킬을 먼저 배워야 합니다. 불가능한 스킬트립니다.
 CBADF: 가능한 스킬트리입니다.  
 AECB: 가능한 스킬트리입니다.  
 BDA: B 스킬을 배우기 전에 C 스킬을 먼저 배워야 합니다. 불가능한 스킬트리입니다.  
+
 ---
 코드  
 ```python
