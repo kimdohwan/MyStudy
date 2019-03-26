@@ -1,4 +1,4 @@
-
+-----
 
 도서 : 파이썬과 함께하는 자료구조의 이해
 
@@ -45,6 +45,8 @@
 	- [kruskal](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/08_graph/kruskal.py)
 	- [topological sort](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/08_graph/topological_sort.ipynb)
 	- [floyd warshall](https://github.com/kimdohwan/BookStudy/blob/master/data_structure_with_python/08_graph/floyd_warshall.py)
+
+---
 
 [etc_1](https://github.com/kimdohwan/BookStudy/blob/master/etc_1/)
 
