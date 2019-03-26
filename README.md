@@ -65,6 +65,7 @@ etc
 	- [단속 카메라](https://github.com/kimdohwan/BookStudy/blob/master/etc/camera.md)
 	- [주식 가격](https://github.com/kimdohwan/BookStudy/blob/master/etc/stock_price.md)
 	- [스킬 트리](https://github.com/kimdohwan/BookStudy/blob/master/etc/skill_tree.md)
+	- [기능 개발](https://github.com/kimdohwan/BookStudy/blob/master/etc/progress_speed.md)
 	
 - Ubuntu
 	- [우분투 데스크탑 아이콘 커스터마이징하기](https://github.com/kimdohwan/BookStudy/blob/master/etc/ubuntu_customizing_icon.md)
