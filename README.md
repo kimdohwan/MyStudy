@@ -1,4 +1,3 @@
-
 ---
 도서 : 파이썬과 함께하는 자료구조의 이해
 
@@ -48,6 +47,7 @@
 	
 
 ---
+[etc_1](https://github.com/kimdohwan/BookStudy/blob/master/etc_1/)
 
 etc
 
