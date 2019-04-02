@@ -69,6 +69,7 @@ etc
   - [기능 개발](https://github.com/kimdohwan/BookStudy/blob/master/etc/iron_stick.md)
   - [쇠막대기](https://github.com/kimdohwan/BookStudy/blob/master/etc/iron_stick.md)
   - [후보키](https://github.com/kimdohwan/BookStudy/blob/master/etc/candidate_key.md)
+  - [조이스틱](https://github.com/kimdohwan/BookStudy/blob/master/etc/joystick.md)
 
 - Ubuntu
   - [우분투 데스크탑 아이콘 커스터마이징하기](https://github.com/kimdohwan/BookStudy/blob/master/etc/ubuntu_customizing_icon.md)
