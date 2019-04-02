@@ -92,7 +92,7 @@ def solution(name):
 
       오른쪽으로 이동하는 횟수: 
 
-      ​	```right_end_point``` 5가 된다.(A -> A -> B -> C -> C)
+      ​	```right_end_point``` 4가 된다.(A -> A -> B -> C -> C)
 
 ---
 
