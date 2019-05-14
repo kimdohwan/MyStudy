@@ -4,8 +4,13 @@
 
 ##### 보안그룹 설정 누락
 
-- 사용중인 AWS RDS 의 보안그룹에 EB or EC2 보안그룹 추가 필요
-- 현상: Timeout 응답 메시지 
+- RDS
+  - 사용중인 AWS RDS 의 보안그룹에 EB or EC2 보안그룹 추가 필요
+  - 현상: Timeout 응답 메시지 
+- EB(SecurityGroup)
+  - 80/443 추가
+- EB(LoadBalancer)
+  - https 요청을 받는 경우, 로드 밸런서에 리스너 추가 해준 후 로드밸런서 보안그룹에 https(443) 추가
 
 ##### Nginx 설정 오류
 
