@@ -79,6 +79,7 @@ etc
   - [elasticbeanstalk setting](https://github.com/kimdohwan/BookStudy/blob/master/etc/elasticbeanstalk_setting.md)
   - [route 53,acm](https://github.com/kimdohwan/BookStudy/blob/master/etc/route53_acm.md)
   - [eb create 시에 IAM permission error 해결하기](https://github.com/kimdohwan/BookStudy/blob/master/etc/aws_eb_create_iam_permission_error.md)
+  - [eb 배포 후 무한로딩 발생 사례](https://github.com/kimdohwan/BookStudy/blob/master/etc/aws_eb_deploy_infinite_loading_case.md)
 
 - 기타
   - [Headless Chrome setting](https://github.com/kimdohwan/BookStudy/blob/master/etc/headless_chrome.md)
