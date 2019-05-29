@@ -48,8 +48,6 @@
 
 ---
 
-[etc_1](https://github.com/kimdohwan/BookStudy/blob/master/etc_1/)
-
 etc
 
 - Python
@@ -84,6 +82,9 @@ etc
 - 기타
   - [Headless Chrome setting](https://github.com/kimdohwan/BookStudy/blob/master/etc/headless_chrome.md)
   - [unix socket 으로 통신하는 이유](https://github.com/kimdohwan/BookStudy/blob/master/etc/unix_socket_with_nginxsetting.md)
+
+[etc_1](https://github.com/kimdohwan/BookStudy/blob/master/etc_1/) - 정리 필요 
+
 ---
 
 도서 : 컴퓨터 사이언스 부트캠프 with 파이썬
