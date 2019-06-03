@@ -12,6 +12,7 @@ numpy = "*"
 requests = "*"
 bs4 = "*"
 aiohttp = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
