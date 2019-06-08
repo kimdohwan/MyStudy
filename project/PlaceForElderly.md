@@ -2,7 +2,9 @@
 
 #### 개요
 
-#### 
+- 경기도 노인 요양시설 현황 정보 제공
+- URL: https://j6sqja4hg2.execute-api.ap-northeast-2.amazonaws.com/production 
+- python, django, aws lambda, aws rds(postgres, mysql), docker
 
 #### 작업 내역
 

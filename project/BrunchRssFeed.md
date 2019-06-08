@@ -23,7 +23,9 @@
 
 - 도식화
 
-  크롤링 속도 문제로 인해 lambda 사용하지 않도록 배포된 상태(Django - [crawler.py](https://github.com/kimdohwan/Brunch-RSS-Feed/blob/master/app/articles/utils/crawling/crawler.py))
+  크롤링 속도 문제로 인해 lambda 사용하지 않도록 배포된 상태
+
+  Django - [crawler.py](https://github.com/kimdohwan/Brunch-RSS-Feed/blob/master/app/articles/utils/crawling/crawler.py)로 크롤링 수행함
 
   ![Image](https://github.com/kimdohwan/Project/blob/master/blueprint_brunch.png)
 
@@ -116,7 +118,7 @@
 
   - Celery 를 사용한 방식은 크롤링 작업 자체의 시간을 단축시키는 것이 아니라, 그저 백그라운드에서 수행하게끔 하는 방식이다. 하지만 asyncio 와 aiohttp 를 통해 비동기 요청 구현으로 크롤링 작업 자체의 시간을 단축시켜보았다.
 
-  - 동기적 / 비동기적
+  - 동기적 / 비동기적([asyncio 포스팅](https://github.com/kimdohwan/MyStudy/blob/master/etc/asyncio.md))
 
     - 기본적으로 Django 는 비동기적 방식으로 동작한다. 5개의 URL 에 대해 Request 와 Response 를 그림과 같이 차례대로 수행한다.
 
