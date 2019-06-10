@@ -6,7 +6,7 @@
 - URL: https://j6sqja4hg2.execute-api.ap-northeast-2.amazonaws.com/production 
 - python, django, aws lambda, aws rds(postgres, mysql), docker
 
-#### 프로젝트 동작
+#### 동작
 
 - 전체 요양원 리스트를 로드(메인 페이지)
 
