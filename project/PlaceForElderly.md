@@ -6,6 +6,20 @@
 - URL: https://j6sqja4hg2.execute-api.ap-northeast-2.amazonaws.com/production 
 - python, django, aws lambda, aws rds(postgres, mysql), docker
 
+#### 프로젝트 동작
+
+- 전체 요양원 리스트를 로드(메인 페이지)
+
+  ![Image](https://github.com/kimdohwan/MyStudy/blob/master/project/images/elderly/main.png)
+
+- 주소를 사용해 해당되는 요양원 검색
+
+  ![Image](https://github.com/kimdohwan/MyStudy/blob/master/project/images/elderly/search.png)
+
+- 요양원 상세 정보 페이지
+
+  ![Image](https://github.com/kimdohwan/MyStudy/blob/master/project/images/elderly/detail.png)
+
 #### 작업 내역
 
 - [x] : 구현 완료 
