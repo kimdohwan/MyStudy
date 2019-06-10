@@ -1,9 +1,0 @@
-def change_value(tu):
-    tu = ('i', 2, 3, 4)
-    return tu
-
-
-if __name__ == '__main__':
-    tu = (1, 2, 3, 4)
-    tu = change_value(tu)
-    print(tu)
