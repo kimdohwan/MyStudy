@@ -47,7 +47,7 @@
 - ##### RSS Feed 생성을 위한 크롤링 작업 
 
   - Selenium
-    - Javasciprt 로 글 목록(검색 결과)을 불러오기 위해 사용
+    - Javasciprt 로 글 목록(검색 결과)을 불러온 후, `최신순` button click을 위해 사용
     - EB Docker container 에서 동작하기 위해 별도의 Chrome driver 및 Headless Chrome 설치 필요(배포 시 Dockerfile 에서  Install 수행)
   - Celery
     - 오래걸리는 크롤링 작업을 백그라운드에서 수행
@@ -93,11 +93,9 @@
 
 - [블로그](https://devdoh.tistory.com/59)
 
-
-
 ---
 
-
+### 트러블 슈팅
 
 - ##### 트러블 슈팅 1 : Celery 를 통해 백그라운드 작업 수행하기
 
