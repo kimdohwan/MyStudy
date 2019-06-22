@@ -1,6 +1,9 @@
 ### PORTFOLIO / PROJECT - 김 도 환 
 
-
+**Language**           : Python, HTML, CSS, SQL
+**Web Framework** : Django, Flask
+**Cloud ( AWS )**     : EC2, Elastic Beanstalk, Lambda
+**ETC**                      : Github ( VCS ), Ubuntu ( OS ), Postgresql ( DB )
 
 #### Place For Elderly ( 진행중 )
 
