@@ -1,4 +1,4 @@
-### qt creator(5.14.2) mysql driver plugin setting
+### qt creator(5.14.2) mysql driver plugin setting(QMYSQL driver not loaded)
 
 
 
