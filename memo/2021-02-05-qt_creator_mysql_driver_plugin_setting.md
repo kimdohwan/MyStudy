@@ -5,13 +5,12 @@
 - qt creator 5.14.2 기준으로 작성
 	
 - 현상 
-	
+
+  - qt creator 설치 후, debug 모드로 bulid 및 debugging 시, mysql 관련 드라이버 로그 되지 않음
     ```
     QSqlDatabase: QMYSQL driver not loaded
     QSqlDatabase: available drivers: QSQLITE QODBC QODBC3 QPSQL QPSQL7
     ```
-  
-  - qt creator 설치 후, debug 모드로 bulid 및 debugging 시, mysql 관련 드라이버 로그 되지 않음
   
 - 해결
 
